@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C131A28C3084936E0013A938 /* Mic_to_SpeakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131A28B3084936E0013A938 /* Mic_to_SpeakerApp.swift */; };
+		C131A28E3084936E0013A938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131A28D3084936E0013A938 /* ContentView.swift */; };
+		C131A290308493770013A938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C131A28F308493770013A938 /* Assets.xcassets */; };
+		C131A293308493770013A938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C131A292308493770013A938 /* Preview Assets.xcassets */; };
+		C131A29D308493780013A938 /* Mic_to_SpeakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131A29C308493780013A938 /* Mic_to_SpeakerTests.swift */; };
+		C131A2A7308493780013A938 /* Mic_to_SpeakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131A2A6308493780013A938 /* Mic_to_SpeakerUITests.swift */; };
+		C131A2A9308493790013A938 /* Mic_to_SpeakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131A2A8308493790013A938 /* Mic_to_SpeakerUITestsLaunchTests.swift */; };
+		C131A2B63084979E0013A938 /* MictoSpeakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131A2B53084979E0013A938 /* MictoSpeakManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C131A299308493780013A938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C131A2803084936E0013A938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C131A2873084936E0013A938;
+			remoteInfo = "Mic to Speaker";
+		};
+		C131A2A3308493780013A938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C131A2803084936E0013A938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C131A2873084936E0013A938;
+			remoteInfo = "Mic to Speaker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C131A2883084936E0013A938 /* Mic to Speaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mic to Speaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C131A28B3084936E0013A938 /* Mic_to_SpeakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mic_to_SpeakerApp.swift; sourceTree = "<group>"; };
+		C131A28D3084936E0013A938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C131A28F308493770013A938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C131A292308493770013A938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C131A298308493780013A938 /* Mic to SpeakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mic to SpeakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C131A29C308493780013A938 /* Mic_to_SpeakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mic_to_SpeakerTests.swift; sourceTree = "<group>"; };
+		C131A2A2308493780013A938 /* Mic to SpeakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mic to SpeakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C131A2A6308493780013A938 /* Mic_to_SpeakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mic_to_SpeakerUITests.swift; sourceTree = "<group>"; };
+		C131A2A8308493790013A938 /* Mic_to_SpeakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mic_to_SpeakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C131A2B53084979E0013A938 /* MictoSpeakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MictoSpeakManager.swift; sourceTree = "<group>"; };
+		C131A2B73084A0D20013A938 /* Mic-to-Speaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mic-to-Speaker-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C131A2853084936E0013A938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131A295308493780013A938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131A29F308493780013A938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C131A27F3084936E0013A938 = {
+			isa = PBXGroup;
+			children = (
+				C131A28A3084936E0013A938 /* Mic to Speaker */,
+				C131A29B308493780013A938 /* Mic to SpeakerTests */,
+				C131A2A5308493780013A938 /* Mic to SpeakerUITests */,
+				C131A2893084936E0013A938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C131A2893084936E0013A938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C131A2883084936E0013A938 /* Mic to Speaker.app */,
+				C131A298308493780013A938 /* Mic to SpeakerTests.xctest */,
+				C131A2A2308493780013A938 /* Mic to SpeakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C131A28A3084936E0013A938 /* Mic to Speaker */ = {
+			isa = PBXGroup;
+			children = (
+				C131A2B73084A0D20013A938 /* Mic-to-Speaker-Info.plist */,
+				C131A28B3084936E0013A938 /* Mic_to_SpeakerApp.swift */,
+				C131A28D3084936E0013A938 /* ContentView.swift */,
+				C131A28F308493770013A938 /* Assets.xcassets */,
+				C131A291308493770013A938 /* Preview Content */,
+				C131A2B53084979E0013A938 /* MictoSpeakManager.swift */,
+			);
+			path = "Mic to Speaker";
+			sourceTree = "<group>";
+		};
+		C131A291308493770013A938 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C131A292308493770013A938 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C131A29B308493780013A938 /* Mic to SpeakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C131A29C308493780013A938 /* Mic_to_SpeakerTests.swift */,
+			);
+			path = "Mic to SpeakerTests";
+			sourceTree = "<group>";
+		};
+		C131A2A5308493780013A938 /* Mic to SpeakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C131A2A6308493780013A938 /* Mic_to_SpeakerUITests.swift */,
+				C131A2A8308493790013A938 /* Mic_to_SpeakerUITestsLaunchTests.swift */,
+			);
+			path = "Mic to SpeakerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C131A2873084936E0013A938 /* Mic to Speaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C131A2AC308493790013A938 /* Build configuration list for PBXNativeTarget "Mic to Speaker" */;
+			buildPhases = (
+				C131A2843084936E0013A938 /* Sources */,
+				C131A2853084936E0013A938 /* Frameworks */,
+				C131A2863084936E0013A938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mic to Speaker";
+			productName = "Mic to Speaker";
+			productReference = C131A2883084936E0013A938 /* Mic to Speaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C131A297308493780013A938 /* Mic to SpeakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C131A2AF308493790013A938 /* Build configuration list for PBXNativeTarget "Mic to SpeakerTests" */;
+			buildPhases = (
+				C131A294308493780013A938 /* Sources */,
+				C131A295308493780013A938 /* Frameworks */,
+				C131A296308493780013A938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C131A29A308493780013A938 /* PBXTargetDependency */,
+			);
+			name = "Mic to SpeakerTests";
+			productName = "Mic to SpeakerTests";
+			productReference = C131A298308493780013A938 /* Mic to SpeakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C131A2A1308493780013A938 /* Mic to SpeakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C131A2B2308493790013A938 /* Build configuration list for PBXNativeTarget "Mic to SpeakerUITests" */;
+			buildPhases = (
+				C131A29E308493780013A938 /* Sources */,
+				C131A29F308493780013A938 /* Frameworks */,
+				C131A2A0308493780013A938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C131A2A4308493780013A938 /* PBXTargetDependency */,
+			);
+			name = "Mic to SpeakerUITests";
+			productName = "Mic to SpeakerUITests";
+			productReference = C131A2A2308493780013A938 /* Mic to SpeakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C131A2803084936E0013A938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C131A2873084936E0013A938 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C131A297308493780013A938 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C131A2873084936E0013A938;
+					};
+					C131A2A1308493780013A938 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C131A2873084936E0013A938;
+					};
+				};
+			};
+			buildConfigurationList = C131A2833084936E0013A938 /* Build configuration list for PBXProject "Mic to Speaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C131A27F3084936E0013A938;
+			productRefGroup = C131A2893084936E0013A938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C131A2873084936E0013A938 /* Mic to Speaker */,
+				C131A297308493780013A938 /* Mic to SpeakerTests */,
+				C131A2A1308493780013A938 /* Mic to SpeakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C131A2863084936E0013A938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131A293308493770013A938 /* Preview Assets.xcassets in Resources */,
+				C131A290308493770013A938 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131A296308493780013A938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131A2A0308493780013A938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C131A2843084936E0013A938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131A28E3084936E0013A938 /* ContentView.swift in Sources */,
+				C131A28C3084936E0013A938 /* Mic_to_SpeakerApp.swift in Sources */,
+				C131A2B63084979E0013A938 /* MictoSpeakManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131A294308493780013A938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131A29D308493780013A938 /* Mic_to_SpeakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131A29E308493780013A938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131A2A7308493780013A938 /* Mic_to_SpeakerUITests.swift in Sources */,
+				C131A2A9308493790013A938 /* Mic_to_SpeakerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C131A29A308493780013A938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C131A2873084936E0013A938 /* Mic to Speaker */;
+			targetProxy = C131A299308493780013A938 /* PBXContainerItemProxy */;
+		};
+		C131A2A4308493780013A938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C131A2873084936E0013A938 /* Mic to Speaker */;
+			targetProxy = C131A2A3308493780013A938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C131A2AA308493790013A938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C131A2AB308493790013A938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C131A2AD308493790013A938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mic to Speaker/Preview Content\"";
+				DEVELOPMENT_TEAM = P8W4VX857J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mic-to-Speaker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone for live audio amplification.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "fs.merc.Mic-to-Speaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C131A2AE308493790013A938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mic to Speaker/Preview Content\"";
+				DEVELOPMENT_TEAM = P8W4VX857J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mic-to-Speaker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone for live audio amplification.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "fs.merc.Mic-to-Speaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C131A2B0308493790013A938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fs.merc.Mic-to-SpeakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mic to Speaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mic to Speaker";
+			};
+			name = Debug;
+		};
+		C131A2B1308493790013A938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fs.merc.Mic-to-SpeakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mic to Speaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mic to Speaker";
+			};
+			name = Release;
+		};
+		C131A2B3308493790013A938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fs.merc.Mic-to-SpeakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mic to Speaker";
+			};
+			name = Debug;
+		};
+		C131A2B4308493790013A938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fs.merc.Mic-to-SpeakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mic to Speaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C131A2833084936E0013A938 /* Build configuration list for PBXProject "Mic to Speaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131A2AA308493790013A938 /* Debug */,
+				C131A2AB308493790013A938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131A2AC308493790013A938 /* Build configuration list for PBXNativeTarget "Mic to Speaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131A2AD308493790013A938 /* Debug */,
+				C131A2AE308493790013A938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131A2AF308493790013A938 /* Build configuration list for PBXNativeTarget "Mic to SpeakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131A2B0308493790013A938 /* Debug */,
+				C131A2B1308493790013A938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131A2B2308493790013A938 /* Build configuration list for PBXNativeTarget "Mic to SpeakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131A2B3308493790013A938 /* Debug */,
+				C131A2B4308493790013A938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C131A2803084936E0013A938 /* Project object */;
+}
